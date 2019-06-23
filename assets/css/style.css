@@ -241,8 +241,9 @@ body {
     }
 
     @media (max-width: 640px) {
-        nav {            
-            float: none;
-            width: 100%;
+        .auth-image {            
+            width: 200px;
+            height: auto;
+            position: relative;
         }
     }
