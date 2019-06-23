@@ -181,6 +181,7 @@ body {
   
   #contact-form ul {
     margin-bottom: 20px;
+    margin-right: 50px;
   }
   
   #contact-form li {
@@ -219,5 +220,6 @@ body {
     cursor: pointer;
     background: #4aaaa5;
     border: 0 none;
+    margin-left: 40px;
   }
   
