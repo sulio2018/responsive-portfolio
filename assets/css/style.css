@@ -226,7 +226,7 @@ body {
   }
   
     @media (max-width: 980px) {
-        header {
+         {
             float: none;
             width: 100%;
         }
