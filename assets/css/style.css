@@ -183,6 +183,10 @@ body {
     text-decoration: none;
     color: #ffffff
   }
+
+  a:hover {
+    color: blue;
+  }
   
   /* contact page */
   
