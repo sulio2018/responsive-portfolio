@@ -154,7 +154,6 @@ body {
   .work img {
     width: 100%;
     border: 0 none;
-    opacity: 0.8;
   }
   
   .work h3 {
@@ -231,7 +230,6 @@ body {
     cursor: pointer;
     background: #4aaaa5;
     border: 0 none;
-    margin-left: 40px;
   }
   
   @media only screen and (max-width: 640px){
@@ -244,9 +242,9 @@ body {
     header .container {
       padding: 0;
     }
-  
-    main.container {
-      padding-top: 0;
+
+    #main-container {
+      padding-top: 20px;
     }
   
     #logo,
