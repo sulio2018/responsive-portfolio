@@ -1,3 +1,5 @@
+@import url("reset.css");
+
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin: 0 auto;
@@ -176,6 +178,11 @@ body {
     margin-top: 10px;
     margin-right: 25px;
   }
+
+  a {
+    text-decoration: none;
+    color: #ffffff
+  }
   
   /* contact page */
   
@@ -223,25 +230,48 @@ body {
     margin-left: 40px;
   }
   
-    @media (max-width: 980px) {
-        nav {
-            margin: 0;
-            float: none;
-            width: 100%;
-        }
+  @media only screen and (max-width: 640px){
+    #masthead {
+      /* Positioning */
+      position: static;
+      margin-bottom: 20px;
     }
-
-    @media (max-width: 768px) {
-        nav {
-            float: none;
-            width: 100%;
-        }
+  
+    header .container {
+      padding: 0;
     }
-
-    @media (max-width: 640px) {
-        .auth-image {            
-            width: 200px;
-            height: auto;
-            position: relative;
-        }
+  
+    main.container {
+      padding-top: 0;
     }
+  
+    #logo,
+    .work,
+    .auth-image {
+      width: 100%;
+    }
+  
+    nav {
+      /* Box-model */
+      width: 100%;
+  
+      /* Positioning */
+      margin: 15px 0;
+  
+      /* Typography */
+      text-align: center;
+    }
+  
+    nav a {
+      /* Box-model */
+      width: 30%;
+      padding-left: 0;
+  
+      /* Positioning */
+      margin-left: 0;
+    }
+  }
+  
+  
+  
+  
